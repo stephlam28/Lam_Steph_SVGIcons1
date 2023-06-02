@@ -1,0 +1,153 @@
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: pink;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'TR Tempus Sans ITC', sans-serif;
+    text-align: center;
+}           
+
+p {
+    font-family: 'Maiandra GD', sans-serif;                    
+}
+
+.icon-container {
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container div {
+    width: 30%;
+}
+
+
+/* blueberries */
+
+#bleafr, #bleafl, #bleafu {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#blueberries:hover #bleafr {
+    transform: rotate(3deg);
+}
+
+#blueberries:hover #bleafl {
+    fill: #fff;
+    transform: rotate(-2deg);
+}
+
+#blueberries:hover #bleafu {
+    fill: #fff;
+    transform: rotate(-1deg);
+}
+
+#blueberries:hover #bbu {
+    filter: brightness(118%);
+    transition: all 0.5s ease-in;
+    transform-origin: center;
+    transform: rotate(2deg)
+}
+
+#blueberries:hover #bbl {
+    transition: all 0.5s ease-in;
+    transform-origin: center;
+    transform: rotate(-5deg);
+}
+
+#blueberries:hover #bbr {
+    transition: all 1s ease-in;
+    transform-origin: center;
+    transform: rotate(4deg)
+}
+
+/* cherry */
+
+#cherry:hover #cleaf {
+    transition: all 0.5s ease-out;
+    transform-origin: center;
+    transform: rotate(2deg);
+    filter: brightness(108%);
+}
+
+#cherry:active #lcherry {
+    filter: drop-shadow(5px 5px 15px red);
+}
+
+#cherry:active #rcherry {
+    filter: drop-shadow(5px 5px 15px red);
+}
+
+/* peach */
+
+#peach:hover #peachshine {
+    transition: all 0.5s ease-out;
+    transform-origin: 1cm 1px;
+    transform: rotate(-1deg)
+}
+
+#peach:hover #peachshine2 {
+    transition: all 0.5s ease-out;
+    transform-origin: 1cm 1px;
+    transform: rotate(1deg)
+}
+
+#peach:active #pleaf {
+    transition: top ease 0.5s;
+    transform-origin: center;
+    transform: rotate(7deg);
+}
+
+
+/* strawbery */
+#bstrawberry:hover{
+    transition: all ease 1s;
+    transform-origin: center;
+    transform: rotate(1deg);
+}
+
+#strawberry1:hover{
+    transition: all ease 1s;
+    transform-origin: center;
+    transform: rotate(1deg);
+}
+
+
+#bstrawberry:hover .s-7 {
+    filter: brightness(110%);
+}
+
+#strawberry:hover .s-7{
+    filter: brightness(110%);
+}
+
+/* lemon */
+ #openlemon:hover {
+    transition: all ease 0.5s;
+    transform-origin: center;
+    transform: rotate(5deg);
+}
+
+#lemon:active {
+    transition: all ease 0.5s;
+    transform-origin: center;
+    transform: rotate(-5deg);
+}
+
+/* raspberry */
+
+#raspberry:hover {
+    transition: all ease 0.5s;
+    transform-origin: center;
+    transform: rotate(-5deg);
+}
